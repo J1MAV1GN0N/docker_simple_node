@@ -1,0 +1,16 @@
+{
+  "name": "simple_node",
+  "version": "1.0.0",
+  "description": "This is a very simple, bare-bones NodeJS project created for you to use with Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Phil Christ",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "~13.13.0"
+  }
+}
