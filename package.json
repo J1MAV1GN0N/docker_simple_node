@@ -11,6 +11,7 @@
   "author": "Phil Christ",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "~13.13.0"
+    "@types/node": "~13.13.0",
+    "node": "^13.14.0"
   }
 }
