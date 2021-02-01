@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-simple-node-app
+  labels:
+    run: my-simple-node-app
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    run: my-simple-node-app
