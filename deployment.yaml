@@ -19,3 +19,7 @@ spec:
         image: philchrist/simple-node-travis
         ports:
         - containerPort: 80
+      livenessProbe:
+        httpGet:
+          path: /health
+          port: 8080
